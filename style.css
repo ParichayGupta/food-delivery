@@ -1,4 +1,27 @@
 * {
     margin: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
+}
+
+navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-image {
+    width: 150px;
+    height: 100px;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-weight: bold;
 }
