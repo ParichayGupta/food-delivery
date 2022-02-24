@@ -1,11 +1,16 @@
 * {
-    margin: 0px;
     font-family: 'Raleway', sans-serif;
 }
 
-navbar {
+#navbar {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    display: inline;
+    width: 150px;
+    height: 100px;
 }
 
 #logo-image {
@@ -14,8 +19,12 @@ navbar {
 }
 
 ul {
-    display: inline;
+    display: flex;
     list-style: none;
+}
+
+li {
+    display: inline;
 }
 
 a {
