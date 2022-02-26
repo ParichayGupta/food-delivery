@@ -14,14 +14,15 @@
     align-items: center;
 }
 
+
+/* Navigation Bar: logo and image  */
+
 #logo {
-    display: inline;
+    text-align: center;
 }
 
-#logo img {
-    width: 100px;
-    height: 100px;
-}
+
+/* Navigation Bar: List Styling */
 
 ul {
     display: flex;
