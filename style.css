@@ -1,6 +1,13 @@
+/* CSS Reset */
+
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+
+/* Navigation bar */
 
 #navbar {
     display: flex;
@@ -9,12 +16,10 @@
 
 #logo {
     display: inline;
-    width: 150px;
-    height: 100px;
 }
 
-#logo-image {
-    width: 150px;
+#logo img {
+    width: 100px;
     height: 100px;
 }
 
@@ -24,13 +29,5 @@ ul {
 }
 
 li {
-    display: inline;
-}
-
-a {
-    list-style: none;
     text-decoration: none;
-    font-size: large;
-    color: black;
-    font-weight: bold;
 }
