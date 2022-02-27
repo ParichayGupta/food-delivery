@@ -86,16 +86,16 @@
     left: 0px;
     background: url(../img/background.jpg) no-repeat center center/cover;
     z-index: -1;
+    opacity: 0.8;
 }
 
 #home h1 {
     color: white;
-}
-
-
-/* Utility Classes */
-
-.h-primary {
     font-size: 2.3rem;
     padding: 17px;
+}
+
+#home p {
+    color: white;
+    font: 1.5rem;
 }
