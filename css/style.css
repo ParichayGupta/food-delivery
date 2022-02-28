@@ -93,22 +93,36 @@
 #home h1 {
     color: white;
     font-size: 2.3rem;
-    padding: 17px;
     font-family: 'Raleway', sans-serif;
 }
 
 #home p {
     color: white;
-    font: 1.5rem;
     font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+/* Utility Classes */
+
+.h-primary {
+    font-size: 1.5rem;
+    padding: 12px;
 }
 
 .btn {
     padding: 5px 40px;
     border: 2px solid orangered;
+    background-color: wheat;
+    font-size: 1rem;
+    font-family: 'Baloo Bhaina 2', cursive;
     border-radius: 10px;
     cursor: pointer;
     margin: 3px;
 }
 
-.btn:hover {}
+.btn:hover {
+    letter-spacing: 2px;
+    color: wheat;
+    background-color: darkgreen;
+    border: 2px solid orange;
+}
