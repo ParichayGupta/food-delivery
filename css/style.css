@@ -1,7 +1,6 @@
 /* CSS Reset */
 
 * {
-    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -35,7 +34,8 @@
 
 #logo h3 {
     color: azure;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 
 
@@ -44,6 +44,7 @@
 #navbar ul {
     display: flex;
     list-style: none;
+    font-family: 'Raleway', sans-serif;
 }
 
 #navbar ul li {
@@ -62,6 +63,7 @@
     color: black;
     background-color: white;
     border-radius: 20px;
+    letter-spacing: 3px;
     padding: 3px 22px;
 }
 
@@ -86,16 +88,27 @@
     left: 0px;
     background: url(../img/background.jpg) no-repeat center center/cover;
     z-index: -1;
-    opacity: 0.8;
 }
 
 #home h1 {
     color: white;
     font-size: 2.3rem;
     padding: 17px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #home p {
     color: white;
     font: 1.5rem;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
+
+.btn {
+    padding: 5px 40px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.btn:hover {}
