@@ -11,6 +11,7 @@
 #navbar {
     display: flex;
     position: relative;
+    top: 0px;
     align-items: center;
 }
 
@@ -30,6 +31,11 @@
 #logo {
     text-align: center;
     padding: 5px 20px;
+}
+
+#logo img {
+    height: 64px;
+    width: 96px;
 }
 
 #logo h3 {
@@ -71,8 +77,7 @@
 /* Home Section  */
 
 #home {
-    height: 410px;
-    padding: 3px 150px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,11 +93,11 @@
     left: 0px;
     background: url(../img/background.jpg) no-repeat center center/cover;
     z-index: -1;
+    opacity: .89;
 }
 
 #home h1 {
     color: white;
-    font-size: 2.3rem;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -102,10 +107,35 @@
 }
 
 
+/* Services Section */
+
+#services {
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 23px;
+    background-color: rgb(243, 242, 242);
+}
+
+#services .box img {
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+
+#services .box p {}
+
+#services {}
+
+
 /* Utility Classes */
 
 .h-primary {
-    font-size: 1.5rem;
+    font-size: 3rem;
     padding: 12px;
 }
 
@@ -116,13 +146,14 @@
 
 .btn {
     padding: 5px 40px;
-    border: 2px solid orangered;
+    border: 2px solid orange;
     background-color: wheat;
+    color: darkgreen;
     font-size: 1rem;
     font-family: 'Baloo Bhaina 2', cursive;
     border-radius: 10px;
     cursor: pointer;
-    margin: 3px;
+    margin: 15px;
 }
 
 .btn:hover {
