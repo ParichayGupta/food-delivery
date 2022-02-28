@@ -109,6 +109,14 @@
 
 /* Services Section */
 
+.services-container {
+    border: 2px solid purple;
+}
+
+.services-container h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
 #services {
     display: flex;
 }
@@ -127,9 +135,13 @@
     height: 150px;
 }
 
-#services .box p {}
+#services .box h2 {
+    font-family: 'Baloo Bhaina 2', cursive;
+}
 
-#services {}
+#services .box p {
+    font-family: 'Raleway', sans-serif;
+}
 
 
 /* Utility Classes */
