@@ -149,11 +149,22 @@
     background-color: bisque;
 }
 
+#client-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients img {
+    height: 150px;
+}
+
 
 /* Utility Classes */
 
 .h-primary {
     font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
     padding: 12px;
 }
 
