@@ -149,13 +149,13 @@
     background-color: bisque;
 }
 
-#client-items {
+#clients {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.clients img {
+.client-items img {
     height: 150px;
 }
 
