@@ -175,6 +175,17 @@
 }
 
 
+/* Footer  */
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding: 20px 5px;
+}
+
+
 /* Utility Classes */
 
 .h-primary {
