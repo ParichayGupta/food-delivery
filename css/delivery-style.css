@@ -1,0 +1,74 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation bar */
+
+#navbar {
+    display: flex;
+    position: relative;
+    top: 0px;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* Navigation Bar: logo and image  */
+
+#logo {
+    text-align: center;
+    padding: 5px 20px;
+}
+
+#logo img {
+    height: 64px;
+    width: 96px;
+}
+
+#logo h3 {
+    color: azure;
+    letter-spacing: 2px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbar ul li {
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    padding: 3px 22px;
+}
