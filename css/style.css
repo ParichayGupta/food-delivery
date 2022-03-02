@@ -155,9 +155,12 @@
     align-items: center;
 }
 
+.client-items {
+    padding: 20px;
+}
+
 .client-items img {
     height: 150px;
-    width: 250px;
 }
 
 
