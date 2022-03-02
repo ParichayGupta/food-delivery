@@ -111,10 +111,12 @@
 
 #services-container {
     background-color: rgb(225 197 197);
+    padding: 40px;
 }
 
 #services-container h1 {
     font-family: 'Raleway', sans-serif;
+    padding: 0px 0px 30px;
 }
 
 #services {
@@ -147,6 +149,7 @@
 
 #clients-container {
     background-color: bisque;
+    padding: 40px;
 }
 
 #clients {
@@ -161,6 +164,14 @@
 
 .client-items img {
     height: 150px;
+}
+
+
+/* Contact Us Section */
+
+#contact-container {
+    background-color: darkkhaki;
+    padding: 40px;
 }
 
 
