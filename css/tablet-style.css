@@ -1,0 +1,36 @@
+/* Navigation Bar */
+
+#navbar {
+    flex-direction: column;
+}
+
+
+/* Home Section */
+
+#home {}
+
+
+/* Services Section */
+
+#services-container {}
+
+#services {
+    flex-direction: column;
+}
+
+
+/* Clients Section */
+
+#clients-container {}
+
+#clients {
+    flex-direction: column;
+}
+
+
+/* Contact us Section */
+
+#contact-container {}
+
+
+/* Footer Section  */
