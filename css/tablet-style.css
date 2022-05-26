@@ -15,6 +15,7 @@
 #services-container {}
 
 #services {
+    overflow: hidden;
     flex-direction: column;
 
 }
